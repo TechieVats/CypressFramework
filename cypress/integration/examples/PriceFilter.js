@@ -13,7 +13,7 @@ describe('Price Filter Test Suite', function () {
         cy.visit(Cypress.env('url'));
     });
 
-    it('UI test suite for Price filter feature using both minimum and maximum filters', function () {
+    it('UI test suite for Price filter feature using both minimum and maximum filters options', function () {
         cy.wait(1000);
         myStore.getMinPrice().select(data.minPrice);
         cy.wait(1000);
@@ -26,7 +26,7 @@ describe('Price Filter Test Suite', function () {
         });
     });
 
-    it('UI test suite for Price filter feature for minimum price', function () {
+    it('UI test suite for Price filter feature for minimum price option', function () {
         cy.wait(1000);
         myStore.getMinPrice().select(data.minPrice);
         cy.wait(1000);
@@ -37,7 +37,7 @@ describe('Price Filter Test Suite', function () {
         });
     });
 
-    it('UI test suite for Price filter feature using maximum filter', function () {
+    it('UI test suite for Price filter feature using maximum filter options', function () {
         cy.wait(1000);
         myStore.getMaxPrice().select(data.maxPrice);
         cy.wait(1000);
