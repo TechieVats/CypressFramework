@@ -6,7 +6,7 @@ This README would normally document whatever steps are necessary to get applicat
 ## Set up
 
 clone the repository into Visual Studio Code using version control
-- https://github.com/TechieVats/VASTech.git 
+- https://github.com/TechieVats/CypressFramework.git
 
 ## Execution
 Use Cypress Test Runner to execute the test and to generate the reports
