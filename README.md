@@ -21,7 +21,7 @@ Use Cypress Test Runner to execute the test and to generate the reports
     - node_modules/.bin/cypress run --headed
 
 ### What is this repository for? ###
-Assessment for VASTech
+Assessment for Cypress POC
 Write an automated end-2-end UI test suite that would fully test:
 	-	the Sort by: Price High to Low feature. -> SortByFilter.js
 	-	the Sort by: Price Low to High feature. -> SortByFilter.js
